@@ -1,0 +1,14 @@
+{
+    "name": "trevor-uehlin/lib-salesforce-rest-api",
+    "description": "A library for making request against the Salesforce REST API.",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "trevor-uehlin/lib-http": "dev-development",
+        "trevor-uehlin/lib-oauth-config":"dev-development"
+    },
+    "autoload": {
+        "classmap":["src/", "models/"]
+    }
+}
